@@ -1,0 +1,187 @@
+form{
+  width: 25%;
+  text-align: center;
+  border: 2px solid silver;
+  border-radius: 1.5em;
+  padding: 20px;
+  background: white;
+}
+html{
+  width: 100%;
+}
+.previewForm{
+  min-width: 250px;
+}
+body{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url('background.jpg');
+  background-position: center;
+  background-attachment: fixed;
+}
+.btn-danger{
+  padding: 0px;
+}
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+main{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+}
+.btn-bottom{
+  margin-bottom : 10px;
+}
+.nullmargin{
+  margin: 0px;
+}
+.chatTable{
+  width: 100%;
+  border: 2px solid silver;
+  height: 90%;
+  padding: 5px;
+  border-radius: 0.25em;
+}
+.chat{
+  width: 100%;
+  height: 95%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.controls{
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.chatLine{
+  width: 100%;
+  display: flex;
+}
+.left{
+  align-items: center;
+  justify-content: flex-start;
+}
+.messageLeft{
+  border-radius: .5em .5em 0 .5em ;
+}
+.messageRight{
+  border-radius: .5em .5em .5em 0;
+
+}
+.right{
+  align-items: center;
+  justify-content: flex-end;
+}
+.center{
+  align-items: center;
+  justify-content: center;
+}
+.nameLabel{
+  color: deepskyblue;
+  margin: 0;
+}
+.message{
+  background: #DCDCDC;
+  padding: 5px;
+  padding-left: 10px;
+  min-width: 150px;
+  border: 2px solid silver;
+  margin:10px;
+  text-align: left;
+}
+.message p{
+  margin: 0;
+}
+.dateLabel{
+  color: grey;
+  float: right;
+  bottom: 0;
+  margin: 0;
+}
+.senderForm{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+.mainInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+  padding: 20px 0 20px 0;
+
+}
+.idInfo{
+  width: 80%;
+}
+.mainInfo button{
+  width: 20%;
+}
+.senderForm input{
+  height: 100%;
+  width: 80%;
+}
+.senderForm button{
+  height: 100%;
+  width: 20%;
+  padding : 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 2.5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2.5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 2.5px;
+}
+.new-connection{
+  background: silver;
+  border-radius: 1em;
+  width: 80%;
+
+}
+.new-connection p{
+  margin: 0px;
+}
+body{
+  min-width: 300px;
+}
