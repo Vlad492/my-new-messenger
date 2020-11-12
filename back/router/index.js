@@ -6,9 +6,6 @@ const router = express.Router();
 
 const DB = new DataBase();
 
-router.get('/', function (req, res) {
-    res.sendFile('../build/index.html');
-});
 
 
 router.get('/api/createRoom', (req, res) => {
